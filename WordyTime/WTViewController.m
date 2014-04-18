@@ -8,7 +8,7 @@
 
 #import "WTViewController.h"
 
-@interface WTViewController ()
+@interface WTViewController()
 
 @end
 

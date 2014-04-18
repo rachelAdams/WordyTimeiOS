@@ -16,25 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPV-3A-0iz">
-                                <rect key="frame" x="122" y="282" width="76" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="New Game">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="e5M-IQ-eur" kind="push" id="oNg-mc-aDF"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDa-Fp-M3Z">
                                 <rect key="frame" x="109" y="344" width="102" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Resume Game">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="e5M-IQ-eur" kind="push" id="0Qa-Vr-ky8"/>
-                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WordyTime" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgd-KS-ieL">
                                 <rect key="frame" x="67" y="46" width="187" height="60"/>
@@ -42,12 +29,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bo7-dm-xNi">
+                                <rect key="frame" x="137" y="264" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="mainMenu" destination="kGb-uP-MPr" id="vAZ-BX-hAM"/>
-                        <outlet property="newGameButton" destination="tPV-3A-0iz" id="tfM-e8-pG2"/>
                         <outlet property="resumeGameButton" destination="VDa-Fp-M3Z" id="zI7-4c-a4j"/>
                     </connections>
                 </viewController>
@@ -87,7 +80,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsh-u0-mXh">
-                                <rect key="frame" x="127" y="340" width="71" height="30"/>
+                                <rect key="frame" x="125" y="340" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="New Word">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -99,7 +92,6 @@
                     <navigationItem key="navigationItem" id="tsj-B9-rkG"/>
                     <connections>
                         <outlet property="gameScreen" destination="UZ6-cS-Joc" id="qT9-Mf-b99"/>
-                        <outlet property="newWordButton" destination="vsh-u0-mXh" id="miE-Gz-y8t"/>
                         <outlet property="userText" destination="3AU-zQ-CnE" id="oh7-Fb-Q3W"/>
                         <outlet property="wordFromDict" destination="BtU-lU-ZhZ" id="0Th-vg-JsC"/>
                     </connections>
@@ -114,7 +106,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="oNg-mc-aDF"/>
-    </inferredMetricsTieBreakers>
 </document>

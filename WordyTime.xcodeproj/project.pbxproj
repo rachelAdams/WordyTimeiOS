@@ -338,6 +338,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -461,6 +462,7 @@
 				68B2858E1900C6AC00E9B51E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68B2858F1900C6AC00E9B51E /* Build configuration list for PBXNativeTarget "WordyTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +471,7 @@
 				68B285911900C6AC00E9B51E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

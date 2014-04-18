@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WTViewController : UIViewController
+@interface WTViewController: UIViewController
 @property (strong, nonatomic) IBOutlet UIView *mainMenu;
-@property (weak, nonatomic) IBOutlet UIButton *newdGameButton;
 @property (weak, nonatomic) IBOutlet UIButton *resumeGameButton;
 
 @end
