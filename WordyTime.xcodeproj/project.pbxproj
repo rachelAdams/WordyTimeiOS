@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B285641900C6AC00E9B51E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B285631900C6AC00E9B51E /* Foundation.framework */; };
+		68B285661900C6AC00E9B51E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B285651900C6AC00E9B51E /* CoreGraphics.framework */; };
+		68B285681900C6AC00E9B51E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B285671900C6AC00E9B51E /* UIKit.framework */; };
+		68B2856E1900C6AC00E9B51E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68B2856C1900C6AC00E9B51E /* InfoPlist.strings */; };
+		68B285701900C6AC00E9B51E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B2856F1900C6AC00E9B51E /* main.m */; };
+		68B285741900C6AC00E9B51E /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B285731900C6AC00E9B51E /* WTAppDelegate.m */; };
+		68B285761900C6AC00E9B51E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B285751900C6AC00E9B51E /* Images.xcassets */; };
+		68B2857D1900C6AC00E9B51E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B2857C1900C6AC00E9B51E /* XCTest.framework */; };
+		68B2857E1900C6AC00E9B51E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B285631900C6AC00E9B51E /* Foundation.framework */; };
+		68B2857F1900C6AC00E9B51E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B285671900C6AC00E9B51E /* UIKit.framework */; };
+		68B285871900C6AC00E9B51E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68B285851900C6AC00E9B51E /* InfoPlist.strings */; };
+		68B285891900C6AC00E9B51E /* WordyTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B285881900C6AC00E9B51E /* WordyTimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B285801900C6AC00E9B51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B285581900C6AB00E9B51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B2855F1900C6AB00E9B51E;
+			remoteInfo = WordyTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68B285601900C6AC00E9B51E /* WordyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B285631900C6AC00E9B51E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68B285651900C6AC00E9B51E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68B285671900C6AC00E9B51E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68B2856B1900C6AC00E9B51E /* WordyTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordyTime-Info.plist"; sourceTree = "<group>"; };
+		68B2856D1900C6AC00E9B51E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68B2856F1900C6AC00E9B51E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68B285711900C6AC00E9B51E /* WordyTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordyTime-Prefix.pch"; sourceTree = "<group>"; };
+		68B285721900C6AC00E9B51E /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		68B285731900C6AC00E9B51E /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		68B285751900C6AC00E9B51E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68B2857B1900C6AC00E9B51E /* WordyTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordyTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B2857C1900C6AC00E9B51E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		68B285841900C6AC00E9B51E /* WordyTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordyTimeTests-Info.plist"; sourceTree = "<group>"; };
+		68B285861900C6AC00E9B51E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68B285881900C6AC00E9B51E /* WordyTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordyTimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B2855D1900C6AB00E9B51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B285661900C6AC00E9B51E /* CoreGraphics.framework in Frameworks */,
+				68B285681900C6AC00E9B51E /* UIKit.framework in Frameworks */,
+				68B285641900C6AC00E9B51E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B285781900C6AC00E9B51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B2857D1900C6AC00E9B51E /* XCTest.framework in Frameworks */,
+				68B2857F1900C6AC00E9B51E /* UIKit.framework in Frameworks */,
+				68B2857E1900C6AC00E9B51E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B285571900C6AB00E9B51E = {
+			isa = PBXGroup;
+			children = (
+				68B285691900C6AC00E9B51E /* WordyTime */,
+				68B285821900C6AC00E9B51E /* WordyTimeTests */,
+				68B285621900C6AC00E9B51E /* Frameworks */,
+				68B285611900C6AC00E9B51E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B285611900C6AC00E9B51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B285601900C6AC00E9B51E /* WordyTime.app */,
+				68B2857B1900C6AC00E9B51E /* WordyTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B285621900C6AC00E9B51E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B285631900C6AC00E9B51E /* Foundation.framework */,
+				68B285651900C6AC00E9B51E /* CoreGraphics.framework */,
+				68B285671900C6AC00E9B51E /* UIKit.framework */,
+				68B2857C1900C6AC00E9B51E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B285691900C6AC00E9B51E /* WordyTime */ = {
+			isa = PBXGroup;
+			children = (
+				68B285721900C6AC00E9B51E /* WTAppDelegate.h */,
+				68B285731900C6AC00E9B51E /* WTAppDelegate.m */,
+				68B285751900C6AC00E9B51E /* Images.xcassets */,
+				68B2856A1900C6AC00E9B51E /* Supporting Files */,
+			);
+			path = WordyTime;
+			sourceTree = "<group>";
+		};
+		68B2856A1900C6AC00E9B51E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68B2856B1900C6AC00E9B51E /* WordyTime-Info.plist */,
+				68B2856C1900C6AC00E9B51E /* InfoPlist.strings */,
+				68B2856F1900C6AC00E9B51E /* main.m */,
+				68B285711900C6AC00E9B51E /* WordyTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68B285821900C6AC00E9B51E /* WordyTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				68B285881900C6AC00E9B51E /* WordyTimeTests.m */,
+				68B285831900C6AC00E9B51E /* Supporting Files */,
+			);
+			path = WordyTimeTests;
+			sourceTree = "<group>";
+		};
+		68B285831900C6AC00E9B51E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68B285841900C6AC00E9B51E /* WordyTimeTests-Info.plist */,
+				68B285851900C6AC00E9B51E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B2855F1900C6AB00E9B51E /* WordyTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B2858C1900C6AC00E9B51E /* Build configuration list for PBXNativeTarget "WordyTime" */;
+			buildPhases = (
+				68B2855C1900C6AB00E9B51E /* Sources */,
+				68B2855D1900C6AB00E9B51E /* Frameworks */,
+				68B2855E1900C6AB00E9B51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordyTime;
+			productName = WordyTime;
+			productReference = 68B285601900C6AC00E9B51E /* WordyTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68B2857A1900C6AC00E9B51E /* WordyTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B2858F1900C6AC00E9B51E /* Build configuration list for PBXNativeTarget "WordyTimeTests" */;
+			buildPhases = (
+				68B285771900C6AC00E9B51E /* Sources */,
+				68B285781900C6AC00E9B51E /* Frameworks */,
+				68B285791900C6AC00E9B51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B285811900C6AC00E9B51E /* PBXTargetDependency */,
+			);
+			name = WordyTimeTests;
+			productName = WordyTimeTests;
+			productReference = 68B2857B1900C6AC00E9B51E /* WordyTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B285581900C6AB00E9B51E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					68B2857A1900C6AC00E9B51E = {
+						TestTargetID = 68B2855F1900C6AB00E9B51E;
+					};
+				};
+			};
+			buildConfigurationList = 68B2855B1900C6AB00E9B51E /* Build configuration list for PBXProject "WordyTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68B285571900C6AB00E9B51E;
+			productRefGroup = 68B285611900C6AC00E9B51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B2855F1900C6AB00E9B51E /* WordyTime */,
+				68B2857A1900C6AC00E9B51E /* WordyTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B2855E1900C6AB00E9B51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B2856E1900C6AC00E9B51E /* InfoPlist.strings in Resources */,
+				68B285761900C6AC00E9B51E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B285791900C6AC00E9B51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B285871900C6AC00E9B51E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B2855C1900C6AB00E9B51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B285701900C6AC00E9B51E /* main.m in Sources */,
+				68B285741900C6AC00E9B51E /* WTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B285771900C6AC00E9B51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B285891900C6AC00E9B51E /* WordyTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68B285811900C6AC00E9B51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B2855F1900C6AB00E9B51E /* WordyTime */;
+			targetProxy = 68B285801900C6AC00E9B51E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68B2856C1900C6AC00E9B51E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B2856D1900C6AC00E9B51E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68B285851900C6AC00E9B51E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B285861900C6AC00E9B51E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B2858A1900C6AC00E9B51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68B2858B1900C6AC00E9B51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B2858D1900C6AC00E9B51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordyTime/WordyTime-Prefix.pch";
+				INFOPLIST_FILE = "WordyTime/WordyTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68B2858E1900C6AC00E9B51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordyTime/WordyTime-Prefix.pch";
+				INFOPLIST_FILE = "WordyTime/WordyTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68B285901900C6AC00E9B51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordyTime.app/WordyTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordyTime/WordyTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WordyTimeTests/WordyTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		68B285911900C6AC00E9B51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordyTime.app/WordyTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordyTime/WordyTime-Prefix.pch";
+				INFOPLIST_FILE = "WordyTimeTests/WordyTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B2855B1900C6AB00E9B51E /* Build configuration list for PBXProject "WordyTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B2858A1900C6AC00E9B51E /* Debug */,
+				68B2858B1900C6AC00E9B51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B2858C1900C6AC00E9B51E /* Build configuration list for PBXNativeTarget "WordyTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B2858D1900C6AC00E9B51E /* Debug */,
+				68B2858E1900C6AC00E9B51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68B2858F1900C6AC00E9B51E /* Build configuration list for PBXNativeTarget "WordyTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B285901900C6AC00E9B51E /* Debug */,
+				68B285911900C6AC00E9B51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B285581900C6AB00E9B51E /* Project object */;
+}
