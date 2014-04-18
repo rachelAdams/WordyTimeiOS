@@ -19,6 +19,10 @@
 		68B2857F1900C6AC00E9B51E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B285671900C6AC00E9B51E /* UIKit.framework */; };
 		68B285871900C6AC00E9B51E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68B285851900C6AC00E9B51E /* InfoPlist.strings */; };
 		68B285891900C6AC00E9B51E /* WordyTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B285881900C6AC00E9B51E /* WordyTimeTests.m */; };
+		68B285941900C6D700E9B51E /* WTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B285931900C6D700E9B51E /* WTViewController.m */; };
+		68B285961900C6EE00E9B51E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B285951900C6EE00E9B51E /* Storyboard.storyboard */; };
+		68B285991900CAD300E9B51E /* WTViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B285981900CAD300E9B51E /* WTViewController2.m */; };
+		68B2859B1900CE3D00E9B51E /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68B2859A1900CE3D00E9B51E /* wordlist.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		68B285841900C6AC00E9B51E /* WordyTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordyTimeTests-Info.plist"; sourceTree = "<group>"; };
 		68B285861900C6AC00E9B51E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68B285881900C6AC00E9B51E /* WordyTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordyTimeTests.m; sourceTree = "<group>"; };
+		68B285921900C6D700E9B51E /* WTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTViewController.h; sourceTree = "<group>"; };
+		68B285931900C6D700E9B51E /* WTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTViewController.m; sourceTree = "<group>"; };
+		68B285951900C6EE00E9B51E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		68B285971900CAD300E9B51E /* WTViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTViewController2.h; sourceTree = "<group>"; };
+		68B285981900CAD300E9B51E /* WTViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTViewController2.m; sourceTree = "<group>"; };
+		68B2859A1900CE3D00E9B51E /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,11 @@
 				68B285731900C6AC00E9B51E /* WTAppDelegate.m */,
 				68B285751900C6AC00E9B51E /* Images.xcassets */,
 				68B2856A1900C6AC00E9B51E /* Supporting Files */,
+				68B285921900C6D700E9B51E /* WTViewController.h */,
+				68B285931900C6D700E9B51E /* WTViewController.m */,
+				68B285951900C6EE00E9B51E /* Storyboard.storyboard */,
+				68B285971900CAD300E9B51E /* WTViewController2.h */,
+				68B285981900CAD300E9B51E /* WTViewController2.m */,
 			);
 			path = WordyTime;
 			sourceTree = "<group>";
@@ -118,6 +133,7 @@
 		68B2856A1900C6AC00E9B51E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68B2859A1900CE3D00E9B51E /* wordlist.txt */,
 				68B2856B1900C6AC00E9B51E /* WordyTime-Info.plist */,
 				68B2856C1900C6AC00E9B51E /* InfoPlist.strings */,
 				68B2856F1900C6AC00E9B51E /* main.m */,
@@ -221,6 +237,8 @@
 			files = (
 				68B2856E1900C6AC00E9B51E /* InfoPlist.strings in Resources */,
 				68B285761900C6AC00E9B51E /* Images.xcassets in Resources */,
+				68B2859B1900CE3D00E9B51E /* wordlist.txt in Resources */,
+				68B285961900C6EE00E9B51E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +259,8 @@
 			files = (
 				68B285701900C6AC00E9B51E /* main.m in Sources */,
 				68B285741900C6AC00E9B51E /* WTAppDelegate.m in Sources */,
+				68B285991900CAD300E9B51E /* WTViewController2.m in Sources */,
+				68B285941900C6D700E9B51E /* WTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
