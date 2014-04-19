@@ -14,7 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *wordFromDict;
 @property (weak, nonatomic) IBOutlet UIButton *nextWordButton;
 @property (weak, nonatomic) IBOutlet UILabel *scoreBox;
-
+@property (weak, nonatomic) IBOutlet UILabel *userFeedback;
 
 @end
 
