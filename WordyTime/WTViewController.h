@@ -11,5 +11,6 @@
 @interface WTViewController: UIViewController
 @property (strong, nonatomic) IBOutlet UIView *mainMenu;
 @property (weak, nonatomic) IBOutlet UIButton *resumeGameButton;
+@property (weak, nonatomic) IBOutlet UIButton *startNewGame;
 
 @end

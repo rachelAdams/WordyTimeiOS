@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WTViewController2: UIViewController
+@interface WTViewController2: UIViewController <UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UIView *gameScreen;
 @property (weak, nonatomic) IBOutlet UITextField *userText;
 @property (weak, nonatomic) IBOutlet UILabel *wordFromDict;
 @property (weak, nonatomic) IBOutlet UIButton *nextWordButton;
+@property (weak, nonatomic) IBOutlet UILabel *scoreBox;
 
 
 @end
